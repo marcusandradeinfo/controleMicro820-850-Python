@@ -1,14 +1,23 @@
-    
-class PLC:
+from pylogix import PLC
+
+class PLC_Rockwell:
     def __init__(self):
         pass
 
     ####### FUNÇÃO PARA CRIAR A CONEXÃO #######
     def Conexao(self,ip):
-        try:         
-            with PLC() as comm:
-                comm.IPAddress = ip
-                comm.Micro800 = True
+        with PLC() as comm:
+            comm.IPAddress = ip
+            comm.Micro800 = True
+            print(comm)
+            conexao = comm.Read("teste").Value
+            print(f'Print conexao: {conexao}')
+            if conexao != None:
                 return comm
-        except Exception as e:
-            return False
+            else:
+                return False
+            
+    def Desconectar(self,conexao):
+        conexao.Close()
+        print("Desconectado com sucesso")
+        return True
