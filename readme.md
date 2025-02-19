@@ -2,5 +2,5 @@ APLICAÇÃO CRIADA PARA DEMONSTRAR A INTEGRAÇÃO DO PYTHON COM CLP ROCKWELL MIC
 
 Vamos utilizar a biblioteca pylogix para a comunicação com o CLP.
 
-Para o Front End vou utilizar a própria biblioteca do python streamli
+Para o Front End vou utilizar a própria biblioteca do python streamlit
 
