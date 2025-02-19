@@ -1,0 +1,55 @@
+#controlador-clp{
+    align-items: center;
+    text-align: center;
+    font-size: 36px;
+}
+
+.st-key-conectar button{
+    background-color: rgb(1, 78, 1);
+    color: white;
+}
+
+.st-key-conectar button:hover{
+    background-color: rgb(2, 116, 2);
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+}
+
+.st-key-conectar button:active{
+    background-color: rgb(15, 202, 15);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+.st-key-desconectar button{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.st-key-desconectar button:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+}
+
+.st-key-ligar_saida button{
+    background-color: rgb(0, 54, 202);
+    color: rgb(255, 255, 255);
+}
+
+.st-key-ligar_saida button:hover{
+    background-color: rgb(0, 54, 202);
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+}
+
+.st-key-desligar_saida button{
+    background-color: rgb(255, 238, 4);
+    color: rgb(0, 0, 0);
+}
+
+.st-key-desligar_saida button:hover{
+    background-color: rgb(255, 238, 4);
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
