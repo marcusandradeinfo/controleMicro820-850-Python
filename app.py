@@ -16,7 +16,7 @@ def Main():
         with open(arquivo) as f:
             st.html(f'<style>{f.read()}</style>')
     
-    css_path = pathlib.Path('assets\\style\\style.css')
+    css_path = pathlib.Path('assets/style/style.css')
 
     loadcss(css_path)
 
@@ -33,7 +33,7 @@ def Main():
 
     
     coluna_img,coluna_barra = st.columns([1,3],vertical_alignment='center')
-    coluna_img.image("assets\\img\\plc.png",width=200)
+    coluna_img.image("assets/img/plc.png",width=200)
     coluna_barra.title("Controlador CLP Micro 820 e Micro 850 - Python")
     
     st.divider()
