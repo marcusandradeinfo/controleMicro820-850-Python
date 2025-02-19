@@ -10,7 +10,7 @@ class PLC_Rockwell:
             comm.IPAddress = ip
             comm.Micro800 = True
             print(comm)
-            conexao = comm.Read("teste").Value
+            conexao = comm.Read("saida0").Value
             print(f'Print conexao: {conexao}')
             if conexao != None:
                 return comm
